@@ -1,0 +1,51 @@
+
+section{
+	float: left;
+}
+
+p{
+	text-align: center;
+}
+
+#box1{
+	
+	width: 30%;
+	height: 200px;
+	background: linear-gradient( 45deg, blue, red );
+}
+
+#box2{
+	background-color: yellow;
+	width: 30%;
+	height: 200px;
+	border-radius: 50px;
+	margin: 10px;
+}
+
+#box3{
+	background-color: blue;
+	width: 30%;
+	height: 200px;
+	opacity: .5;
+
+}
+
+#box3:hover {
+	background-color: orange;
+	transform: rotate(45deg);
+	transform-origin: 0 45px;
+
+}
+
+@media (max-width: 800px){
+	#box3 {
+		display:none;
+	}
+	#box1 {
+		width: 45%;
+	}
+	#box2 {
+		width: 45%;
+	}
+	
+}
